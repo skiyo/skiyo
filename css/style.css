@@ -10,8 +10,13 @@ body {
 	font-size:12px;
 	height:100%;
 }
-a {
+a, a:visited {
 	outline:none;
+	color:#666;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
 }
 #main {
 	width:950px;
@@ -22,7 +27,7 @@ a {
 	width:221px;
 	height:68px;
 	background:url(../images/logo.gif) no-repeat;
-	margin-left:60px;
+	margin-left:10px;
 }
 #menu {
 	clear:both;
@@ -87,6 +92,17 @@ a {
 	height:27px;
 	background:url(../images/punny_off.gif) no-repeat;
 }
+#menu #delivery {
+	width:70px;
+	height:27px;
+	background:url(../images/delivery_off.gif) no-repeat;
+}
+#menu a.delivery {
+	display:block;
+	width:70px;
+	height:27px;
+	background:url(../images/delivery_off.gif) no-repeat;
+}
 #content {
 	clear:both;
 	margin-top:10px;
@@ -143,6 +159,14 @@ a {
 #content .rightbox .right_box_center {
 	background:url(../images/box/box_right_center.gif) repeat-y;
 	padding: 5px 15px;
+}
+#content .rightbox .right_box_center ul li{
+	margin:5px 0 5px 10px;
+}
+#content .rightbox .right_box_center a{
+	background:url(../images/ico/bullet_white.png) no-repeat;
+	padding-left:18px;
+	position:relative;
 }
 #content .rightbox .right_box_bottom {
 	background:url(../images/box/box_right_bottom.gif) no-repeat;
