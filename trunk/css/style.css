@@ -91,8 +91,15 @@ a {
 	clear:both;
 	margin-top:10px;
 }
-#content .leftbox {
+#content #left {
 	float:left;
+	width:660px;
+}
+#content #right {
+	float:right;
+	width:290px;
+}
+#content .leftbox {
 	width:660px;
 }
 #content .leftbox .left_box_top {
@@ -121,4 +128,23 @@ a {
 	text-align:right;
 	padding-top:7px;
 	padding-right:20px;
+}
+#center .rightbox {
+	width:280px;
+}
+#content .rightbox .right_box_top {
+	background:url(../images/box/box_right_top.gif) no-repeat;
+	height:32px;
+	font-size:14px;
+	font-weight:bold;
+	padding-top:20px;
+	text-align:center;
+}
+#content .rightbox .right_box_center {
+	background:url(../images/box/box_right_center.gif) repeat-y;
+	padding: 5px 15px;
+}
+#content .rightbox .right_box_bottom {
+	background:url(../images/box/box_right_bottom.gif) no-repeat;
+	height:35px;
 }
