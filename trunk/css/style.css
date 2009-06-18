@@ -172,3 +172,10 @@ a:hover {
 	background:url(../images/box/box_right_bottom.gif) no-repeat;
 	height:35px;
 }
+#footer {
+	background:url(../images/footer.gif) no-repeat;
+	clear:both;
+	height:50px;
+	padding-top:15px;
+	text-align:center;
+}
