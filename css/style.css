@@ -15,9 +15,6 @@ a, a:visited {
 	color:#666;
 	text-decoration:none;
 }
-a:hover {
-	text-decoration:underline;
-}
 #main {
 	width:950px;
 	margin:0 auto;
@@ -172,6 +169,35 @@ a:hover {
 	background:url(../images/box/box_right_bottom.gif) no-repeat;
 	height:35px;
 }
+#content #pages {
+	width:660px;
+	height:50px;
+	background:url(../images/pages_bg.gif) no-repeat;
+	text-align:center;
+	padding-top:15px;
+}
+#content #pages a{
+	border:#ddd 1px solid;
+	padding:2px 5px;
+	margin-left:5px;
+}
+#content #pages a:hover{
+	border:#a0a0a0 1px solid;
+}
+#content #pages span {
+	padding:2px 5px;
+	margin-left:5px;
+}
+#content #pages span.current {
+	border:#e0e0e0 1px solid;
+	background:#f0f0f0;
+	font-weight:bold;
+}
+#content #pages span.disabled {
+	border:#f3f3f3 1px solid;
+	color:#ccc;
+}
+
 #footer {
 	background:url(../images/footer.gif) no-repeat;
 	clear:both;
