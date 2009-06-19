@@ -1,0 +1,24 @@
+#search {
+	margin:15px 0 0 25px;
+}
+#search .sbox_l  {
+	background:url(../images/search/srch_l.gif) no-repeat top left;
+	float: left;
+	width: 19px; 
+	height: 19px;
+}
+
+#search .sbox_r  {
+	background:url(../images/search/srch_r.gif) no-repeat top left;
+	float: left;
+	width: 19px; 
+	height: 19px;
+}
+#search .sbox input {
+	background:url(../images/search/srch_bg.gif) repeat-x top left;
+	float: left;
+	border: 0;
+	height: 19px; 
+	width: 160px;
+	padding: 1px;
+}

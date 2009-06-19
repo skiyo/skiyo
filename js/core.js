@@ -21,4 +21,6 @@ $(document).ready(function (){
 			$(this).animate({ left: 0 }, 'fast');
 		}
 	);
+	searchbox.init();
+	$('#srch_fld').bind('keyup', searchbox.onChange);
 });

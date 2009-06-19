@@ -4,7 +4,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Skiyo</title>
 <link type="text/css" href="css/style.css" media="screen" rel="stylesheet" />
+<link type="text/css" href="css/webkit.css" media="screen" rel="stylesheet" id="webkit" />
 <script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/search.js"></script>
 <script type="text/javascript" src="js/core.js"></script>
 </head>
 <body>
@@ -22,6 +24,18 @@
   </div>
   <div id="content">
     <div id="right">
+      <div class="rightbox">
+        <div class="right_box_top">文章搜索</div>
+        <div class="right_box_center">
+          <div id="search"> <span class="sbox_l"></span><span class="sbox">
+            <form action="" method="get" id="search_form">
+              <input type="search" id="srch_fld" placeholder="Search..." autosave="search_skiyo" results="5" name="search" />
+            </form>
+            </span><span class="sbox_r" id="srch_clear"></span> </div>
+          <div class="clear"></div>
+        </div>
+        <div class="right_box_bottom"></div>
+      </div>
       <div class="rightbox">
         <div class="right_box_top">文章分类</div>
         <div class="right_box_center">

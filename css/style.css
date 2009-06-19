@@ -15,6 +15,9 @@ a, a:visited {
 	color:#666;
 	text-decoration:none;
 }
+.clear {
+	clear:both;
+}
 #main {
 	width:950px;
 	margin:0 auto;
@@ -197,7 +200,6 @@ a, a:visited {
 	border:#f3f3f3 1px solid;
 	color:#ccc;
 }
-
 #footer {
 	background:url(../images/footer.gif) no-repeat;
 	clear:both;
