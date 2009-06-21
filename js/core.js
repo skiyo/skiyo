@@ -23,4 +23,10 @@ $(document).ready(function (){
 	);
 	searchbox.init();
 	$('#srch_fld').bind('keyup', searchbox.onChange);
+	$('#search_form').submit(function() {
+		if($('#srch_fld').val().length == 0) {
+			return false;	
+		}
+		return true;
+	});
 });

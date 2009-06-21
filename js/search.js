@@ -5,11 +5,7 @@ searchbox.init = function (){
 	}
 };
 searchbox.onChange = function (e){
-	if (e.keyCode == 13){
-		e.returnValue=false;
-		e.cancel = true;
-		$('#search_form').submit();
-	} else	if ($('#srch_fld').val().length > 0){
+	if ($('#srch_fld').val().length > 0){
 		var btn = $('#srch_clear');
 		btn.css('background', 'url(images/search/srch_r_f2.gif) no-repeat top left');
 		btn.bind('click', searchbox.clearFld) ;
