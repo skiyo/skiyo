@@ -1,7 +1,7 @@
 if (!searchbox)	var searchbox = {};
 searchbox.init = function (){
 	if (!$.browser.safari){
-		$('#webkit').attr('href', 'css/search.css')
+		$('#webkit').attr('href', 'css/search.css');
 	}
 };
 searchbox.onChange = function (e){
