@@ -21,7 +21,6 @@ $(document).ready(function (){
 			$(this).animate({ left: 0 }, 'fast');
 		}
 	);
-	searchbox.init();
 	$('#srch_fld').bind('keyup', searchbox.onChange);
 	$('#search_form').submit(function() {
 		if($('#srch_fld').val().length == 0) {
