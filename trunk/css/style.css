@@ -145,6 +145,23 @@ a, a:visited {
 	padding-top:7px;
 	padding-right:20px;
 }
+#content .leftbox .left_box_bottom span {
+	margin-left:10px;
+	margin-right:10px;
+	padding-left:20px;
+}
+#content .leftbox .left_box_bottom span.click{
+	background:url(../images/ico/click.png) no-repeat;
+}
+#content .leftbox .left_box_bottom span.comment{
+	background:url(../images/ico/comment.png) no-repeat;
+}
+#content .leftbox .left_box_bottom span.category{
+	background:url(../images/ico/category.png) no-repeat;
+}
+#content .leftbox .left_box_bottom span.tag{
+	background:url(../images/ico/tag.png) no-repeat;
+}
 #center .rightbox {
 	width:280px;
 }
