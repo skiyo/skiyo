@@ -1,9 +1,4 @@
 if (!searchbox)	var searchbox = {};
-searchbox.init = function (){
-	if (!$.browser.safari){
-		$('#webkit').attr('href', 'css/search.css');
-	}
-};
 searchbox.onChange = function (e){
 	if ($('#srch_fld').val().length > 0){
 		var btn = $('#srch_clear');
